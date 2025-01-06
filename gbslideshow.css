@@ -1,0 +1,116 @@
+#gbslideshow {
+    min-height: 20em;
+    font-family: sans-serif;
+    overflow: scroll;
+}
+
+#gbslideshow.GBSL_drag * {
+    pointer-events: none;
+}
+
+.GBSL_drag {
+    background: #b0ffb0;
+}
+
+#GBSL_imageList {
+    display: block;
+    pointer-events: none;
+}
+
+#GBSL_imageList:empty::after {
+    display: block;
+    margin: 3em;
+    content: "Empty image list. Add images by dragging them here or by using the \"Add image\" button below.";
+}
+
+#GBSL_imageList * {
+    pointer-events: auto;
+}
+
+#gbslideshow.GBSL_drag #GBSL_imageList * {
+    pointer-events: none;
+}
+
+.GBSL_imageItem {
+    position: relative;
+    display: inline-block;
+    margin: 1em 2em;
+    white-space: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1em;
+    border-radius: 0.5em;
+    background: #e0f0ff;
+}
+
+.GBSL_imageItem > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1em;
+}
+
+.GBSL_imageItem > .GBSL_general {
+    display: block;
+    margin-top: 0.5em;
+    border-top: 1px solid #80a0e0;
+    padding-top: 0.5em;
+}
+
+.GBSL_imageItem label {
+    display: block;
+    clear: both;
+}
+
+.GBSL_imageItem label input {
+    float: right;
+}
+
+.GBSL_imageItem > .GBSL_general label input {
+    float: none;
+    margin-left: 1em;
+}
+
+.GBSL_listControls {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.GBSL_GameBoyScreen {
+    margin: 0.5em 1em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.GBSL_original::before {
+    position: absolute;
+    transform: rotate(-30deg);
+    content: "Original";
+    padding: 0.1em 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: white;
+}
+
+.GBSL_DMG::before {
+    position: absolute;
+    transform: rotate(-30deg);
+    content: "DMG";
+    padding: 0.1em 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: white;
+}
+
+.GBSL_GBC::before {
+    position: absolute;
+    transform: rotate(-30deg);
+    content: "GBC";
+    padding: 0.1em 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: white;
+}
+
+#GBSL_controls {
+    margin: 1em;
+}
+
+#GBSL_controls button {
+    margin: 0 0.5em;
+}
