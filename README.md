@@ -4,7 +4,9 @@ Create slideshow ROMs for your Game Boy directly in your browser. This allows yo
 
 The grayscale mode uses mid-frame tileset switching to provide fullscreen images and the color mode even does palette swaps during h-blank, allowing for much more colorful images than just using the GBS's eight 4-color palettes statically.
 
-<a href="https://www.buymeacoffee.com/there.oughta.be" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="47" width="174" ></a>
+Here is a Youtube video demonstrating this tool:
+
+[![Youtube Video: Create a Game Boy Slideshow ROM in under a minute](https://img.youtube.com/vi/s0pecEwJihE/0.jpg)](https://youtu.be/s0pecEwJihE)   <a href="https://www.buymeacoffee.com/there.oughta.be" target="_blank" style="display:inline-block;float:right"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="47" width="174" ></a>
 
 # How to use it
 
