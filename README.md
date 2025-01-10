@@ -10,7 +10,7 @@ Here is a Youtube video demonstrating this tool:
 
 # How to use it
 
-Either download the content of this repository to your computer and open `gbslideshow.html` in your webbrowser or visit [https://there.oughta.be/a/game-boy-slideshow](there.oughta.be/a/game-boy-slideshow) for a conveniently hosted version (you can also use the short URL [https://x-b.it/gbs](x-b.it/gbs)).
+Either download the content of this repository to your computer and open `gbslideshow.html` in your webbrowser or visit [there.oughta.be/a/game-boy-slideshow](https://there.oughta.be/a/game-boy-slideshow) for a conveniently hosted version (you can also use the short URL [x-b.it/gbs](https://x-b.it/gbs)).
 
 Simply use the "Add image" button or drag your images into your browser to add new images. You can try the sliders to adjust the image's look and can see the effect immediately. Below each image you can enter the desired time (in seconds) each image should be shown. If you set this to zero, this particular image will not advance automatically. (On your Game Boy can always use left/right or A/B to go forth and back in your slideshow.)
 
