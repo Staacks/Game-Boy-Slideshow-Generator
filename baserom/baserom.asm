@@ -323,7 +323,8 @@ BEGIN:
     ld b, a ; Store state of register a for CGB detection after initialization
 
     ;Wait for vblank
-	WaitForMode %00000001
+	WaitForMode %00000000 ;First wait for an hblank to be sure that we start do not just hit the last cycle of vblank with the next test
+	WaitForMode %00000001 ;Now really wait for vblank
 
     ; Turn off LCD during setup
     ld a, %00010001    ;LCD off, BG Tile Data 0x8000, BG ON
